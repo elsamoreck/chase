@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Make Her Chase You: The Complete Guide</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.75in;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #e67e22;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        
+        .header .subtitle {
+            color: #e67e22;
+            font-size: 1.3em;
+            margin: 15px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .intro {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .intro h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.6em;
+        }
+        
+        .intro p {
+            font-size: 1.1em;
+            margin: 0;
+            opacity: 0.95;
+        }
+        
+        .step-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 2px solid #fdf2e9;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #fdfefe 0%, #f8f9fa 100%);
+            position: relative;
+        }
+        
+        .step-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #e67e22, #d35400);
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .step-number {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+        }
+        
+        .step-title {
+            color: #2c3e50;
+            font-size: 1.7em;
+            font-weight: bold;
+            margin: 0 0 20px 0;
+        }
+        
+        .step-content {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .why-it-works {
+            background: linear-gradient(135deg, #e8f6f3 0%, #d5f4e6 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #00b894;
+        }
+        
+        .why-it-works h4 {
+            color: #00695c;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .action-steps {
+            background: linear-gradient(135deg, #e8f4f8 0%, #d1ecf1 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #3498db;
+        }
+        
+        .action-steps h4 {
+            color: #2980b9;
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .action-steps ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .action-steps li {
+            margin: 8px 0;
+            color: #2c3e50;
+        }
+        
+        .example-box {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #f39c12;
+        }
+        
+        .example-box h4 {
+            color: #e67e22;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .wrong-vs-right {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 20px;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .wrong, .right {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .wrong {
+            background: rgba(231, 76, 60, 0.1);
+            border: 2px solid rgba(231, 76, 60, 0.3);
+        }
+        
+        .right {
+            background: rgba(46, 204, 113, 0.1);
+            border: 2px solid rgba(46, 204, 113, 0.3);
+        }
+        
+        .vs {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #34495e;
+        }
+        
+        .mistake-warning {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        .mistake-warning h4 {
+            color: #c0392b;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .chase-quote {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            border: 2px solid #dee2e6;
+        }
+        
+        .summary-box h3 {
+            color: #2c3e50;
+            margin: 0 0 20px 0;
+            font-size: 1.4em;
+            text-align: center;
+        }
+        
+        .summary-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .summary-list li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #e67e22;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .calendar-example {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .calendar-example h4 {
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 50px 0 30px 0;
+        }
+        
+        .cta-section h2 {
+            margin: 0 0 20px 0;
+            font-size: 1.8em;
+        }
+        
+        .cta-highlight {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .cta-highlight a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            border-top: 1px solid #ecf0f1;
+        }
+        
+        @media print {
+            body { font-size: 12pt; }
+            .step-section { page-break-inside: avoid; }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .wrong-vs-right {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .vs {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>How to Make Her Chase You</h1>
+            <div class="subtitle">The Complete Guide to Becoming Irresistible</div>
+        </div>
+
+        <div class="intro">
+            <h2>🔥 Stop Chasing, Start Being Chased</h2>
+            <p>Most men spend their energy chasing women who barely notice them. Smart men flip the script and become the prize that women pursue. Here's exactly how to make that shift.</p>
+        </div>
+
+        <div class="step-section">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Get Busy (And No, Not With Other Women)</h3>
+            
+            <div class="step-content">
+                I want your calendar to be so full of meaningful activities that when she texts you, you can't respond right away—even if you wanted to. This isn't about playing games; it's about building a life so interesting that you become naturally scarce.
+            </div>
+
+            <div class="why-it-works">
+                <h4>🎯 Why This Works</h4>
+                <p>Scarcity creates value. When you're genuinely busy with fulfilling activities, you become more attractive because: 1) You're not always available, 2) You have interesting things to talk about, 3) You demonstrate that you have a life beyond her.</p>
+            </div>
+
+            <div class="action-steps">
+                <h4>🚀 How to Build Your Busy Life</h4>
+                <ul>
+                    <li>Pick up 2-3 hobbies that genuinely interest you (martial arts, photography, cooking, etc.)</li>
+                    <li>Join clubs, classes, or groups related to your interests</li>
+                    <li>Set career or business goals that require dedicated time</li>
+                    <li>Schedule regular workout sessions and stick to them</li>
+                    <li>Plan adventures and experiences that excite you</li>
+                    <li>Volunteer for causes you care about</li>
+                </ul>
+            </div>
+
+            <div class="calendar-example">
+                <h4>📅 Example Busy Week</h4>
+                <p><strong>Monday:</strong> Gym, then Brazilian Jiu-Jitsu class<br>
+                <strong>Tuesday:</strong> Work late on side project<br>
+                <strong>Wednesday:</strong> Photography workshop<br>
+                <strong>Thursday:</strong> Gym, dinner with male friends<br>
+                <strong>Friday:</strong> Volunteer at animal shelter<br>
+                <strong>Weekend:</strong> Hiking trip with hiking group</p>
+            </div>
+
+            <div class="mistake-warning">
+                <h4>⚠️ Common Mistake</h4>
+                <p>Don't fake being busy by ignoring her texts while you're actually doing nothing. Build genuine activities that fulfill you. She'll sense the difference between authentic unavailability and manufactured games.</p>
+            </div>
+        </div>
+
+        <div class="step-section">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Stop Asking "How Was Your Day?"</h3>
+            
+            <div class="step-content">
+                The 27 other guys trying to take her out are all asking the same boring question: "How was your day?" This question screams "I have nothing interesting to say, so please carry this conversation." Instead, you're going to say something that actually engages her mind.
+            </div>
+
+            <div class="why-it-works">
+                <h4>🎯 Why This Works</h4>
+                <p>"How was your day?" is predictable and lazy. It requires zero creativity and often gets generic responses. When you ask more engaging questions, you stand out from every other guy and create actual conversation worth having.</p>
+            </div>
+
+            <div class="wrong-vs-right">
+                <div class="wrong">
+                    <h5 style="color: #e74c3c; margin: 0 0 10px 0;">❌ Boring</h5>
+                    <p style="margin: 0; font-size: 0.9em;">"How was your day?"<br>"What's up?"<br>"How are you?"</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="right">
+                    <h5 style="color: #27ae60; margin: 0 0 10px 0;">✅ Engaging</h5>
+                    <p style="margin: 0; font-size: 0.9em;">"Tell me something interesting that happened today"<br>"What's the most ridiculous thing you've seen today?"</p>
+                </div>
+            </div>
+
+            <div class="action-steps">
+                <h4>🚀 Conversation Starters That Work</h4>
+                <ul>
+                    <li>"Tell me something interesting that happened today"</li>
+                    <li>"What's the weirdest thing you've seen this week?"</li>
+                    <li>"I just saw [interesting thing]. Reminded me of you because..."</li>
+                    <li>"Quick question: [specific, fun question related to current events]"</li>
+                    <li>"You seem like someone who would [specific assumption]. Am I right?"</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>💬 Real Example</h4>
+                <p><strong>Instead of:</strong> "How was your day?"<br>
+                <strong>Try:</strong> "I just watched someone try to fit a 6-foot Christmas tree into a Honda Civic. Tell me something equally ridiculous that happened to you today."</p>
+            </div>
+        </div>
+
+        <div class="step-section">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Stop Agreeing With Everything She Says</h3>
+            
+            <div class="step-content">
+                If you don't like romantic comedies, don't just say "me too" when she says she does. I know you think that's going to make you connect better, but you're actually just erasing your personality in the process. Women aren't attracted to mirrors—they're attracted to men with backbone.
+            </div>
+
+            <div class="why-it-works">
+                <h4>🎯 Why This Works</h4>
+                <p>Constant agreement is boring and inauthentic. When you have your own opinions and express them respectfully, you demonstrate confidence, personality, and that you're not desperate for her approval. Tension and difference create attraction.</p>
+            </div>
+
+            <div class="wrong-vs-right">
+                <div class="wrong">
+                    <h5 style="color: #e74c3c; margin: 0 0 10px 0;">❌ People-Pleaser</h5>
+                    <p style="margin: 0; font-size: 0.9em;"><strong>Her:</strong> "I love romantic comedies!"<br><strong>You:</strong> "Me too! They're the best!"</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="right">
+                    <h5 style="color: #27ae60; margin: 0 0 10px 0;">✅ Authentic</h5>
+                    <p style="margin: 0; font-size: 0.9em;"><strong>Her:</strong> "I love romantic comedies!"<br><strong>You:</strong> "I think they're terrible, but hey, I'm glad you like them."</p>
+                </div>
+            </div>
+
+            <div class="action-steps">
+                <h4>🚀 How to Disagree Attractively</h4>
+                <ul>
+                    <li>Express your genuine opinion without attacking hers</li>
+                    <li>Use phrases like "I see it differently" or "That's not really my thing"</li>
+                    <li>Explain why you feel that way (briefly, don't lecture)</li>
+                    <li>Show curiosity about her perspective</li>
+                    <li>Find common ground where it genuinely exists</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>💬 More Examples</h4>
+                <p><strong>Her:</strong> "I love going out to clubs every weekend!"<br>
+                <strong>You:</strong> "Not really my scene—I prefer quieter places where I can actually hear myself think. But I can see why you'd enjoy the energy."</p>
+                
+                <p><strong>Her:</strong> "Pineapple on pizza is amazing!"<br>
+                <strong>You:</strong> "That's food blasphemy, but I respect your poor taste in pizza toppings." [with a playful smile]</p>
+            </div>
+
+            <div class="mistake-warning">
+                <h4>⚠️ The Balance</h4>
+                <p>Don't disagree with everything just to be contrarian. Disagree when you genuinely have a different opinion. The goal is authenticity, not being difficult.</p>
+            </div>
+        </div>
+
+        <div class="chase-quote">
+            "The man who is constantly available and agreeable becomes invisible. The man who has his own life, opinions, and standards becomes irresistible."
+        </div>
+
+        <div class="summary-box">
+            <h3>🎯 The 3 Steps to Make Her Chase You</h3>
+            <ul class="summary-list">
+                <li>1. Get genuinely busy with hobbies, interests, and meaningful activities</li>
+                <li>2. Stop asking boring questions like "How was your day?"</li>
+                <li>3. Express your authentic opinions instead of agreeing with everything</li>
+            </ul>
+        </div>
+
+        <div class="step-section">
+            <div class="step-number">🎯</div>
+            <h3 class="step-title">The Mindset Shift That Changes Everything</h3>
+            
+            <div class="step-content">
+                The biggest shift you need to make is this: stop trying to be the perfect guy for her, and start being the authentic guy who doesn't need her validation. When you make this shift, everything changes.
+            </div>
+
+            <div class="action-steps">
+                <h4>🧠 Daily Mindset Practice</h4>
+                <ul>
+                    <li>Remind yourself: "I'm the prize in this interaction"</li>
+                    <li>Focus on whether you like her, not just whether she likes you</li>
+                    <li>Build a life so fulfilling that dating becomes a bonus, not a necessity</li>
+                    <li>Practice saying "no" to things that don't align with your values</li>
+                    <li>Develop interests and goals that exist independent of dating</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Ready to Master the Complete System?</h2>
+            <p>These three steps are just the beginning. There's a complete psychology behind making women chase you that goes much deeper than these fundamentals.</p>
+            
+            <div class="cta-highlight">
+                <a href="https://v3nhti7cf7p.typeform.com/to/X5Q11U0a">
+                    Schedule Your Free Chase Strategy Call
+                </a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.95em; opacity: 0.9;">
+                Let me show you the advanced techniques that transform you from someone who chases to someone who gets chased.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Remember: The goal isn't to manipulate or play games. It's to become genuinely attractive by building a fulfilling life, having authentic conversations, and maintaining your own standards and opinions.</p>
+        </div>
+    </div>
+</body>
+</html>
